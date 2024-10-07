@@ -1,0 +1,6 @@
+Flask
+protobuf
+python-dotenv
+google-generativeai
+python-dotenv
+requests
