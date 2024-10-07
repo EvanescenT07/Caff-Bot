@@ -32,7 +32,7 @@ def generate_response(user_input):
     prompt = context + "\n\n" + user_input
     response = model.generate_content(prompt)
 
-    candidate = response.candidates[0] 
+    candidate = response.candidates[0]
 
-    if candidate.finish_reason:
-        return str(response.text) 
+    if candidate.finish_reason:  
+        return str(response.text)

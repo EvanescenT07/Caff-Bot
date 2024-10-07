@@ -19,7 +19,8 @@ function send() {
 
 document.getElementById("userInput").addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
-        send(); 
         event.preventDefault();
+        send(); 
     }
 });
+
